@@ -62,28 +62,6 @@ padding: 30px 120px 0;
     gap: 50px;
 }
 
-.navbar{
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    gap: 30px;
-}
-
-.navbar-icon{
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    gap: 30px;
-}
-
-.search{
-    padding: 8px 0 24px 0;
-}
-
-.shop-cart{
-    padding: 8px 0 2px 0;
-}
-
 .btn-log{
     display: flex;
     align-items: center;
@@ -92,6 +70,9 @@ padding: 30px 120px 0;
     gap: 4px;
     border-radius: 6px;
     background-color: #46A358;
+}
+
+.btn-log>a{
     color: #FFFFFF;
     font-family: "Cera Pro Medium";
     font-weight: 500;
